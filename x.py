@@ -12,7 +12,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(options=chrome_options)
 
 
-url = "https://ads.alexamaster.com/?id=1850"
+url = "https://ads.alexamaster.com/?id=1852"
 driver.get(url)
 print(f"opening: {url}")
 
